@@ -30,11 +30,11 @@
 <h3>Click Below To Search User</h3>
 <a href="searchemp.jsp">Click Here</a><br>
 </div>
-<div style="text-align: center;background-color: yellow;">
+<div style="text-align: center;background-color: aqua; ;">
 <h3>Click Below To Delete User</h3>
 <a href="deleteuser.jsp">Click Here</a><br>
 </div>
-<div style="text-align: center;background-color: yellow;">
+<div style="text-align: center;background-color: teal; ;">
 <h3>Click Below To Update User</h3>
 <a href="updateuser.jsp">Click Here</a><br>
 </div>

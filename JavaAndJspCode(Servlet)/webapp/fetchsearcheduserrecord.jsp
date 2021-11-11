@@ -23,21 +23,20 @@ th, td {
 </style>
 </head>
 <body bgcolor="red">
-
-	<a:forEach var="arl" items="${arl }">
-		<table>
-			<tr>
-				<th>Eno</th>
-				<th>Ename</th>
-				<th>Esalary</th>
-			</tr>
+	<table>
+		<tr>
+			<th>Eno</th>
+			<th>Ename</th>
+			<th>Esalary</th>
+		</tr>
+		<a:forEach var="arl" items="${arl }">
 			<tr>
 				<td>${arl.eno }</td>
 				<td>${arl.name }</td>
 				<td>${arl.salary}</td>
 			</tr>
-		</table>
-	</a:forEach>
+		</a:forEach>
+	</table>
 	<h1>
 		<a:if test="${empty arl}">No Record Found Of Searched User</a:if>
 	</h1>

@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body bgcolor="pink">
-	<form action="/bmsmvc/UpdateUserServlet" method="post"
+	<form action="/bmsmvc/UpdateServlet" method="post"
 		style="text-align: center; background-color: lime;">
 		<div>
 			<label style="background-color: orange;"> New Employee No</label> <input

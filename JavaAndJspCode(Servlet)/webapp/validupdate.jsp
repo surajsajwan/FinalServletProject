@@ -20,7 +20,7 @@
 		<h3>Click Below To DeleteUser</h3>
 		<a href="delteuser.jsp">Click Here</a><br>
 	</div>
-	<div style="text-align: center; background-color: yellow;">
+	<div style="text-align: center; background-color: aqua; ;">
 		<h3>Click Below To Update User</h3>
 		<a href="updateuser.jsp">Click Here</a><br>
 	</div>

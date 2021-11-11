@@ -30,9 +30,7 @@ public class AddServlet extends HttpServlet {
 			addDataServiceClass.adduser(getterSetter);
 			request.setAttribute("eno", eno);
 			request.setAttribute("ename", ename);
-			double sal = Double.parseDouble(salary);
-			sal = sal * 0.70;
-			request.setAttribute("salary", sal);
+			request.setAttribute("salary", salary);
 			RequestDispatcher requestDispatcher = request.getRequestDispatcher("displaydata.jsp");
 			requestDispatcher.forward(request, response);
 		} catch (Exception e) {

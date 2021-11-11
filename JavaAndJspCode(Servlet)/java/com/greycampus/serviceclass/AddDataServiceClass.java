@@ -24,10 +24,9 @@ public class AddDataServiceClass {
 		int deleteDao = userDaoClass.deleteDao(eno);
 		return deleteDao;
 	}
-	public int update(GetterSetter gs,String eno) {
+	public int update(String neno, String ename, String esalary, String eno) {
 		UserDaoClass userDaoClass = new UserDaoClass();
-		int updateDao = userDaoClass.updateDao(gs, eno);
+		int updateDao = userDaoClass.updateDao(neno, ename, esalary, eno);
 		return updateDao;
-		
 	}
 }

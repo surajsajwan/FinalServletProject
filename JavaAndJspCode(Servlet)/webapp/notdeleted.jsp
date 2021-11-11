@@ -9,7 +9,6 @@
 <body>
 <h1>User Not Deleted</h1>
 <h1>Sorry This User Is Not Present In DB</h1>
-
 	<div style="text-align: center; background-color: yellow;">
 		<h3>Click Below To Add User</h3>
 		<a href="adduser.jsp">Click Here</a><br>
